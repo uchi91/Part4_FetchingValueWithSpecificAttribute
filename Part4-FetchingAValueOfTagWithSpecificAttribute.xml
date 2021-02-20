@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+<?xml-stylesheet type="text/xsl" href="results.xsl"?>
+-->
+<Invoice>
+	<!--below is newly added part for lecture 4-->
+	<AccountingSupplierParty>
+		<Party>
+			<Name>Safedrive Logistics</Name>
+			<PostalAddress>
+				<StreetName>Atatürk Caddesi</StreetName>
+				<CitySubdivisionName>Beşiktaş</CitySubdivisionName>
+				<CityName>İstanbul</CityName>
+				<Country>Turkey</Country>
+			</PostalAddress>
+			<TaxScheme>
+				<Name>İstanbul Tax Office</Name>
+			</TaxScheme>
+			<PartyIdentification>
+				<ID schemeID="BranchID">0120120125</ID>
+			</PartyIdentification>
+			<PartyIdentification>
+				<ID schemeID="TaxID">1110002225</ID>
+			</PartyIdentification>
+		</Party>
+	</AccountingSupplierParty>
+	<AccountingCustomerParty>
+		<Party>
+			<Name>Vernon Dursley</Name>
+			<PostalAddress>
+				<StreetName>4 Private Drive</StreetName>
+				<CitySubdivisionName>Little Whinging</CitySubdivisionName>
+				<CityName>Surrey</CityName>
+				<Country>England</Country>
+			</PostalAddress>
+			<TaxScheme>
+				<Name>Surrey Tax Office</Name>
+			</TaxScheme>
+			<PartyIdentification>
+				<ID schemeID="TaxID">8889997775</ID>
+			</PartyIdentification>
+			<PartyIdentification>
+				<ID schemeID="BranchID">9879879875</ID>
+			</PartyIdentification>
+		</Party>
+	</AccountingCustomerParty>
+	<!--above is newly added part for lecture 4-->
+	<InvoiceLine>
+		<ItemNumber>1</ItemNumber>
+		<Product>Apple</Product>
+		<Quantity unitCode="KG">10</Quantity>
+		<UnitCost currency="USD">2</UnitCost>
+		<TaxRate>10</TaxRate>
+		<TaxAmount currency="USD">2</TaxAmount>
+		<Note/>
+		<TotalAmountIncludingTax currency="USD">22</TotalAmountIncludingTax>
+	</InvoiceLine>
+	<InvoiceLine>
+		<ItemNumber>2</ItemNumber>
+		<Product>Orange</Product>
+		<Quantity unitCode="KG">5</Quantity>
+		<UnitCost currency="USD">1.5</UnitCost>
+		<TaxRate>10</TaxRate>
+		<TaxAmount currency="USD">0.75</TaxAmount>	
+		<Note/>
+		<TotalAmountIncludingTax currency="USD">8.25</TotalAmountIncludingTax>
+	</InvoiceLine>
+</Invoice>
