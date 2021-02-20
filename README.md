@@ -1,9 +1,12 @@
 # Part4_FetchingValueWithSpecificAttribute
 
 In this part, we'll display Invoice Issuer and Invoice Receiver parties' informations.
+
 And whilst applying the above sentence, there will be usage of `<xsl:if>` 
 
-Below is a part of xml file. There are two types of ID tags inside <PartyIdentification> tag and I want to reach and print only the one having TaxID attribute.
+Below is related part of xml file. 
+
+There are two types of ID tags inside `<PartyIdentification>` tag and I want to reach and print only the one having TaxID attribute.
 ```
 	<AccountingSupplierParty>
 		<Party>
